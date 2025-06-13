@@ -16,7 +16,10 @@ const Header = ({ children, className }: WithChildrenAndClass) => {
 
 const Title = ({ children, className, ...props }: WithChildrenAndClass) => {
   return (
-    <h2 className={cn("font-bold text-3xl", className)} {...props}>
+    <h2
+      className={cn("font-bold text-2xl md:text-3xl lg:text-4xl", className)}
+      {...props}
+    >
       {children}
     </h2>
   );
@@ -24,7 +27,10 @@ const Title = ({ children, className, ...props }: WithChildrenAndClass) => {
 
 const H1 = ({ children, className, ...props }: WithChildrenAndClass) => {
   return (
-    <h1 className={cn("font-bold text-6xl", className)} {...props}>
+    <h1
+      className={cn("font-bold text-3xl md:text-4xl lg:text-6xl", className)}
+      {...props}
+    >
       {children}
     </h1>
   );
