@@ -58,7 +58,8 @@ export const menuItems = [
     description:
       "Creamy burrata with heirloom tomatoes, basil, and aged balsamic",
     price: 18,
-    image: "/placeholder.svg?height=300&width=400",
+    image:
+      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749822054/peach-burrata-salad-f_i-2_lqnkkz.jpg",
     category: "Starters",
     tags: ["Vegetarian", "Seasonal"],
   },
@@ -67,7 +68,8 @@ export const menuItems = [
     name: "Chocolate Soufflé",
     description: "Warm chocolate soufflé with vanilla bean ice cream",
     price: 14,
-    image: "/placeholder.svg?height=300&width=400",
+    image:
+      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749822158/1484024436574_wunubv.webp",
     category: "Desserts",
     tags: ["Vegetarian"],
   },
@@ -76,7 +78,8 @@ export const menuItems = [
     name: "Lobster Bisque",
     description: "Rich and creamy lobster soup with a touch of brandy",
     price: 22,
-    image: "/placeholder.svg?height=300&width=400",
+    image:
+      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749822228/Depositphotos_65928549_L-1_w7q61q.jpg",
     category: "Starters",
     tags: ["Chef's Special"],
   },

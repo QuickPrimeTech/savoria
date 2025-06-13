@@ -8,8 +8,8 @@ export const navLinks = [
 ];
 
 export const contactInfo = {
-  phone: "+1 (555) 123-4567",
-  whatsapp: "+15551234567",
+  phone: "+25471234567",
+  whatsapp: "254717448835",
   email: "info@savoria.com",
   address: "123 Gourmet Avenue, Culinary District, New York, NY 10001",
   googleMapsUrl: "https://maps.google.com/?q=123+Gourmet+Avenue+New+York",

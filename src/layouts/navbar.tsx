@@ -60,9 +60,9 @@ export default function Navbar() {
                 "text-sm font-medium transition-colors hover:text-primary",
                 pathname === link.href
                   ? "text-primary"
-                  : scrolled
-                  ? "text-foreground"
-                  : "text-white"
+                  : pathname === "/" && !scrolled
+                  ? "text-white"
+                  : "text-foreground"
               )}
             >
               {link.label}
