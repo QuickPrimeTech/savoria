@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import CTAButton from "@/components/cta-button";
-import { Children, ClassName, WithChildrenAndClass } from "@/types";
+import { Children, WithChildrenAndClass } from "@/types";
 
 type AboutCardProps = {
   reverse?: boolean;
@@ -26,7 +26,7 @@ export function AboutCardContent({
   children,
   className,
 }: WithChildrenAndClass) {
-  return <div className="w-full md:w-1/2">{children}</div>;
+  return <div className={cn("w-full md:w-1/2", className)}>{children}</div>;
 }
 
 export function AboutCardImage({

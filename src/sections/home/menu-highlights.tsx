@@ -21,7 +21,7 @@ export default function MenuHighlightsSection() {
       <Header>
         <Title>Menu Highlights</Title>
         <SubTitle>
-          Discover our chef's signature creations, crafted with the finest
+          Discover our chef&apos;s signature creations, crafted with the finest
           seasonal ingredients
         </SubTitle>
       </Header>
