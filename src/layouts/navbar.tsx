@@ -80,7 +80,11 @@ export default function Navbar() {
               <Button
                 variant="ghost"
                 size="icon"
-                className={cn(!scrolled && "text-white")}
+                className={cn(
+                  pathname === "/" && !scrolled
+                    ? "text-white"
+                    : "text-foreground"
+                )}
               >
                 <Menu className="size-6" />
                 <span className="sr-only">Open menu</span>

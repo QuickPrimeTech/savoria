@@ -1,4 +1,8 @@
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import {
+  TestimonialCard,
+  TestimonialHeader,
+  TestimonialContent,
+} from "@/components/testimonial-card";
 import {
   Carousel,
   CarouselContent,
@@ -6,7 +10,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { testimonials } from "@/lib/data";
 import { Section, SubTitle, Header, Title } from "@/components/typography";
 
@@ -24,33 +27,14 @@ export default function TestimonialsSection() {
               className="basis-full md:basis-1/2 lg:basis-1/3"
               key={key}
             >
-              <Card key={testimonial.id} className="h-full flex flex-col">
-                <CardHeader className="flex flex-row items-center gap-4 pb-2">
-                  <Avatar className="h-12 w-12">
-                    <AvatarImage
-                      src={testimonial.avatar}
-                      alt={`Avatar of ${testimonial.name}`}
-                      className="object-cover"
-                    />
-                    <AvatarFallback className="bg-primary/40 text-black">
-                      {testimonial.name
-                        .split(" ")
-                        .map((word) => word[0])
-                        .join("")
-                        .toUpperCase()}
-                    </AvatarFallback>
-                  </Avatar>
-                  <div>
-                    <h4 className="font-semibold">{testimonial.name}</h4>
-                    <p className="text-sm text-muted-foreground">
-                      {testimonial.role}
-                    </p>
-                  </div>
-                </CardHeader>
-                <CardContent className="text-muted-foreground mt-2 flex-grow">
-                  “{testimonial.content}”
-                </CardContent>
-              </Card>
+              <TestimonialCard key={testimonial.id}>
+                <TestimonialHeader
+                  name={testimonial.name}
+                  role={testimonial.role}
+                  avatar={testimonial.avatar}
+                />
+                <TestimonialContent>{testimonial.content}</TestimonialContent>
+              </TestimonialCard>
             </CarouselItem>
           ))}
         </CarouselContent>
