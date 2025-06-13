@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { navLinks, contactInfo, openingHours } from "@/lib/constants";
 import { Logo } from "@/components/logo";
 

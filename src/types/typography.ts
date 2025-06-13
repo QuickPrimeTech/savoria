@@ -1,28 +1,34 @@
-import { HTMLAttributes } from "react";
+import { HTMLAttributes, ReactNode, ComponentProps } from "react";
 
+// Basic shared interfaces
 interface ClassName {
   className?: string;
 }
 
 interface Children {
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
-interface WithChildrenAndClass extends HTMLAttributes<HTMLHeadingElement> {
-  children: React.ReactNode;
+// Combo interface
+interface WithChildrenAndClass extends HTMLAttributes<HTMLElement> {
+  children: ReactNode;
+  className?: string;
 }
 
+// Type aliases instead of empty interfaces
+type DivProps = ComponentProps<"div">;
+type H2Props = ComponentProps<"h2">;
+type H3Props = ComponentProps<"h3">;
+
+// Optional HTML props container
 interface HtmlAttr {
-  props?: React.HTMLAttributes<HTMLElement>;
+  props?: HTMLAttributes<HTMLElement>;
 }
 
-interface DivProps extends React.ComponentProps<"div"> {}
-
-interface H2Props extends React.ComponentProps<"h2"> {}
-
-interface H3Props extends React.ComponentProps<"h3"> {}
-
-interface DivWithChildrenAndClass extends ClassName, DivProps {}
+interface DivWithChildrenAndClass extends DivProps {
+  children: ReactNode;
+  className?: string;
+}
 
 export type {
   ClassName,

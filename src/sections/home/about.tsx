@@ -53,7 +53,7 @@ const aboutCardsData = [
 
 export default function AboutCardsSection() {
   return (
-    <Section aria-labelled-by="about-header">
+    <Section aria-labelledby="about-header">
       <Header>
         <Title id="about-header">About Savoria</Title>
         <SubTitle>

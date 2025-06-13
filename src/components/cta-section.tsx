@@ -1,6 +1,6 @@
 import CTAButton from "@/components/cta-button";
 import { cn } from "@/lib/utils";
-import { Section, Header, Title, SubTitle } from "@/components/typography";
+import { Section } from "@/components/typography";
 interface CTASectionProps {
   title: string;
   description?: string;

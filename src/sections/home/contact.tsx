@@ -24,16 +24,14 @@ export default function ContactSection() {
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!,
   });
 
-  const [map, setMap] = React.useState<google.maps.Map | null>(null);
-
   const onLoad = React.useCallback((map: google.maps.Map) => {
     const bounds = new window.google.maps.LatLngBounds(center);
     map.fitBounds(bounds);
-    setMap(map);
+    // Removed setMap(map) since map is unused
   }, []);
 
   const onUnmount = React.useCallback(() => {
-    setMap(null);
+    // No state to clear
   }, []);
 
   return (
