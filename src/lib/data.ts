@@ -28,7 +28,7 @@ export const menuItems = [
     image:
       "https://res.cloudinary.com/dhlyei79o/image/upload/v1749756966/IMG_9660-2-scaled_yy7iit.jpg",
     category: "Main Courses",
-    tags: ["Vegetarian", "Chef&apos;s Special"],
+    tags: ["Vegetarian", "Chef's Special"],
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ export const menuItems = [
     image:
       "https://res.cloudinary.com/dhlyei79o/image/upload/v1749757399/1673539598595_v6dd24.webp",
     category: "Seafood",
-    tags: ["Chef&apos;s Special", "Seasonal"],
+    tags: ["Chef's Special", "Seasonal"],
   },
   {
     id: 3,
@@ -50,7 +50,7 @@ export const menuItems = [
     image:
       "https://res.cloudinary.com/dhlyei79o/image/upload/v1749757499/perfect-beef-wellington-105140-1_mx538s.webp",
     category: "Main Courses",
-    tags: ["Chef&apos;s Special"],
+    tags: ["Chef's Special"],
   },
   {
     id: 4,
@@ -78,7 +78,7 @@ export const menuItems = [
     price: 22,
     image: "/placeholder.svg?height=300&width=400",
     category: "Starters",
-    tags: ["Chef&apos;s Special"],
+    tags: ["Chef's Special"],
   },
 ];
 
