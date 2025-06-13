@@ -1,10 +1,41 @@
+"use client";
+
+import React from "react";
 import { Section, Header, Title, SubTitle } from "@/components/typography";
-import Image from "next/image";
 import CTAButton from "@/components/cta-button";
 import { contactInfo } from "@/lib/constants";
 import { Instagram, Facebook, Twitter } from "lucide-react";
+import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
+import Link from "next/link";
+
+const containerStyle = {
+  width: "100%",
+  height: "100%",
+};
+
+const center = {
+  lat: -3.745,
+  lng: -38.523,
+};
 
 export default function ContactSection() {
+  const { isLoaded } = useJsApiLoader({
+    id: "google-map-script",
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!,
+  });
+
+  const [map, setMap] = React.useState<google.maps.Map | null>(null);
+
+  const onLoad = React.useCallback((map: google.maps.Map) => {
+    const bounds = new window.google.maps.LatLngBounds(center);
+    map.fitBounds(bounds);
+    setMap(map);
+  }, []);
+
+  const onUnmount = React.useCallback(() => {
+    setMap(null);
+  }, []);
+
   return (
     <Section aria-labelledby="contact-section">
       <Header>
@@ -48,7 +79,7 @@ export default function ContactSection() {
           <div className="mt-6">
             <h4 className="font-medium mb-2">Follow Us:</h4>
             <div className="flex gap-4">
-              <a
+              <Link
                 href={contactInfo.socialMedia.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -56,8 +87,8 @@ export default function ContactSection() {
                 aria-label="Instagram"
               >
                 <Instagram className="w-6 h-6" />
-              </a>
-              <a
+              </Link>
+              <Link
                 href={contactInfo.socialMedia.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -65,8 +96,8 @@ export default function ContactSection() {
                 aria-label="Facebook"
               >
                 <Facebook className="w-6 h-6" />
-              </a>
-              <a
+              </Link>
+              <Link
                 href={contactInfo.socialMedia.twitter}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -74,27 +105,32 @@ export default function ContactSection() {
                 aria-label="Twitter"
               >
                 <Twitter className="w-6 h-6" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
-        <div>
-          <div className="relative h-64 md:h-full w-full rounded-lg overflow-hidden">
-            <Image
-              src="/placeholder.svg?height=600&width=800"
-              alt="Restaurant location"
-              fill
-              className="object-cover"
-            />
-            <div className="absolute bottom-4 left-4">
-              <CTAButton
-                href={contactInfo.googleMapsUrl}
-                size="sm"
-                className="shadow-md"
-              >
-                View on Google Maps
-              </CTAButton>
-            </div>
+
+        {/* Map Container */}
+        <div className="relative h-64 md:h-full w-full rounded-lg overflow-hidden">
+          {isLoaded && (
+            <GoogleMap
+              mapContainerStyle={containerStyle}
+              center={center}
+              zoom={10}
+              onLoad={onLoad}
+              onUnmount={onUnmount}
+            >
+              {/* Optional children */}
+            </GoogleMap>
+          )}
+          <div className="absolute bottom-4 left-4">
+            <CTAButton
+              href={contactInfo.googleMapsUrl}
+              size="sm"
+              className="shadow-md"
+            >
+              View on Google Maps
+            </CTAButton>
           </div>
         </div>
       </div>
