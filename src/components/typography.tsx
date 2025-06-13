@@ -13,11 +13,20 @@ const Header = ({ children, className }: WithChildrenAndClass) => {
     <div className={cn("space-y-2 text-center", className)}>{children}</div>
   );
 };
+
 const Title = ({ children, className, ...props }: WithChildrenAndClass) => {
   return (
     <h2 className={cn("font-bold text-3xl", className)} {...props}>
       {children}
     </h2>
+  );
+};
+
+const H1 = ({ children, className, ...props }: WithChildrenAndClass) => {
+  return (
+    <h1 className={cn("font-bold text-6xl", className)} {...props}>
+      {children}
+    </h1>
   );
 };
 
@@ -29,4 +38,4 @@ const SubTitle = ({ children, className }: WithChildrenAndClass) => {
   );
 };
 
-export { Section, Header, Title, SubTitle };
+export { Section, Header, Title, SubTitle, H1 };

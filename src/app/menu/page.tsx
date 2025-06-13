@@ -6,7 +6,7 @@ import ActiveFiltersSection from "@/sections/menu/active-filters";
 import MenuGridSection from "@/sections/menu/menu-grid";
 import MenuCTASection from "@/sections/menu/cta";
 import { menuItems } from "@/lib/data";
-import { Header, Title, SubTitle } from "@/components/typography";
+import { Header, H1, SubTitle } from "@/components/typography";
 
 export default function MenuPage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -52,7 +52,7 @@ export default function MenuPage() {
         className="pt-32 pb-12 md:pt-40 md:pb-16 bg-secondary/30 space-y-12"
       >
         <Header>
-          <Title id="menu-header">Our Menu</Title>
+          <H1 id="menu-header">Our Menu</H1>
           <SubTitle>
             Discover a world of flavors with our diverse menu offerings
           </SubTitle>
