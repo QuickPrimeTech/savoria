@@ -60,7 +60,6 @@ export default function AboutCardsSection() {
           Discover the essence of our restaurant and what makes us unique
         </SubTitle>
       </Header>
-
       {aboutCardsData.map((card, index) => (
         <AboutCard key={index} reverse={index % 2 === 1}>
           <AboutCardImage src={card.image.src} alt={card.image.alt} />
