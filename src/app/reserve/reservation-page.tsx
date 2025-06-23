@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { Header, H1, SubTitle } from "@/components/typography";
 import {
   Select,
   SelectContent,
@@ -45,17 +46,14 @@ export default function ReservationPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="py-16">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Make a Reservation
-          </h1>
-          <p className="text-xl md:text-2xl max-w-2xl mx-auto">
+      <div className="h-96 flex justify-center items-center">
+        <Header>
+          <H1 id="menu-header">Make a Reservation</H1>
+          <SubTitle>
             Reserve your table for an unforgettable dining experience
-          </p>
-        </div>
+          </SubTitle>
+        </Header>
       </div>
-
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
