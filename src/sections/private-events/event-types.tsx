@@ -11,7 +11,7 @@ const eventSpaces = [
     description:
       "Our elegant main dining room can be reserved for large private events. The space features our signature décor and can be arranged to accommodate seated dinners or standing receptions.",
     image:
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749830743/RotterdamRendering_DiningRoom_1_HAL6278_mx63yp.jpg",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749830743/RotterdamRendering_DiningRoom_1_HAL6278_mx63yp.jpg",
   },
   {
     id: "private-room",
@@ -20,7 +20,7 @@ const eventSpaces = [
     description:
       "Our intimate private dining room is perfect for smaller gatherings, business dinners, or special celebrations. The room offers privacy while maintaining the elegant atmosphere of Savoria.",
     image:
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749830847/1080_stwdxw.jpg",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749830847/1080_stwdxw.jpg",
   },
   {
     id: "terrace",
@@ -29,7 +29,7 @@ const eventSpaces = [
     description:
       "Our beautiful terrace offers an al fresco dining experience with views of the garden. Available seasonally, it's perfect for cocktail parties, summer celebrations, or intimate wedding receptions.",
     image:
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749831004/Fully-Automatic-Terrace-Roof-Retractable-Sliding-and-Folding-Luxury-Outdoor-Patio-Pergola-Water-Proof_srjll1.jpg",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749831004/Fully-Automatic-Terrace-Roof-Retractable-Sliding-and-Folding-Luxury-Outdoor-Patio-Pergola-Water-Proof_srjll1.jpg",
   },
 ];
 

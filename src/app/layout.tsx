@@ -18,7 +18,7 @@ export const metadata = {
     siteName: "Savoria",
     images: [
       {
-        url: "https://res.cloudinary.com/dhlyei79o/image/upload/v1750695743/OpenGraphImage_zaf8ol.png",
+        url: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1750695743/OpenGraphImage_zaf8ol.png",
         width: 1200,
         height: 630,
         alt: "Savoria Fine Dining Restaurant",
@@ -32,7 +32,7 @@ export const metadata = {
     title: "Savoria | Fine Dining Restaurant",
     description: "Experience exquisite cuisine in an elegant atmosphere",
     images: [
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1750695743/OpenGraphImage_zaf8ol.png",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1750695743/OpenGraphImage_zaf8ol.png",
     ],
   },
 };

@@ -15,7 +15,7 @@ const teamMembers = [
     name: "Marco Rossi",
     role: "Executive Chef",
     image:
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749846415/ouIU3wkd-chefhameedprofile_1-scaled_nj53ep.jpg",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749846415/ouIU3wkd-chefhameedprofile_1-scaled_nj53ep.jpg",
     bio: "Founder and culinary visionary with 20+ years of fine dining expertise.",
   },
   {
@@ -23,7 +23,7 @@ const teamMembers = [
     name: "Isabella Green",
     role: "General Manager",
     image:
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749846629/Chef_Nak__Profile_Picture_ynm2bg.jpg",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749846629/Chef_Nak__Profile_Picture_ynm2bg.jpg",
     bio: "Ensures every guest experience is seamless and memorable.",
   },
   {
@@ -31,7 +31,7 @@ const teamMembers = [
     name: "Carlos Ramirez",
     role: "Sous Chef",
     image:
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749846559/ujyx5a6mjzdxemyjdplx_j1xcd5.jpg",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749846559/ujyx5a6mjzdxemyjdplx_j1xcd5.jpg",
     bio: "Crafts innovative flavors that elevate every plate.",
   },
   {
@@ -39,7 +39,7 @@ const teamMembers = [
     name: "Sophia Lee",
     role: "Pastry Chef",
     image:
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749846509/bobby-flay_profile_2017_zqkzfc.jpg",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749846509/bobby-flay_profile_2017_zqkzfc.jpg",
     bio: "Creates sweet masterpieces that finish every meal with a smile.",
   },
 ];
