@@ -26,7 +26,7 @@ export const menuItems = [
       "Creamy Arborio rice with wild mushrooms, finished with truffle oil and Parmesan",
     price: 24,
     image:
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749756966/IMG_9660-2-scaled_yy7iit.jpg",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749756966/IMG_9660-2-scaled_yy7iit.jpg",
     category: "Main Courses",
     tags: ["Vegetarian", "Chef's Special"],
   },
@@ -37,7 +37,7 @@ export const menuItems = [
       "Pan-seared scallops with cauliflower purée, crispy pancetta, and herb oil",
     price: 32,
     image:
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749757399/1673539598595_v6dd24.webp",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749757399/1673539598595_v6dd24.webp",
     category: "Seafood",
     tags: ["Chef's Special", "Seasonal"],
   },
@@ -48,7 +48,7 @@ export const menuItems = [
       "Tender beef fillet wrapped in mushroom duxelles and puff pastry, served with red wine jus",
     price: 42,
     image:
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749757499/perfect-beef-wellington-105140-1_mx538s.webp",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749757499/perfect-beef-wellington-105140-1_mx538s.webp",
     category: "Main Courses",
     tags: ["Chef's Special"],
   },
@@ -59,7 +59,7 @@ export const menuItems = [
       "Creamy burrata with heirloom tomatoes, basil, and aged balsamic",
     price: 18,
     image:
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749822054/peach-burrata-salad-f_i-2_lqnkkz.jpg",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749822054/peach-burrata-salad-f_i-2_lqnkkz.jpg",
     category: "Starters",
     tags: ["Vegetarian", "Seasonal"],
   },
@@ -69,7 +69,7 @@ export const menuItems = [
     description: "Warm chocolate soufflé with vanilla bean ice cream",
     price: 14,
     image:
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749822158/1484024436574_wunubv.webp",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749822158/1484024436574_wunubv.webp",
     category: "Desserts",
     tags: ["Vegetarian"],
   },
@@ -79,7 +79,7 @@ export const menuItems = [
     description: "Rich and creamy lobster soup with a touch of brandy",
     price: 22,
     image:
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749822228/Depositphotos_65928549_L-1_w7q61q.jpg",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749822228/Depositphotos_65928549_L-1_w7q61q.jpg",
     category: "Starters",
     tags: ["Chef's Special"],
   },
@@ -93,7 +93,7 @@ export const testimonials = [
     content:
       "The attention to detail in every dish is remarkable. Savoria offers one of the most memorable dining experiences I've had in years.",
     avatar:
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749800691/template_3_andbtw.jpg",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749800691/template_3_andbtw.jpg",
   },
   {
     id: 2,
@@ -102,7 +102,7 @@ export const testimonials = [
     content:
       "I've celebrated several special occasions at Savoria, and they never disappoint. The service is impeccable and the food is consistently outstanding.",
     avatar:
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749800705/avatar-1_dfdctz.webp",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749800705/avatar-1_dfdctz.webp",
   },
   {
     id: 3,
@@ -111,7 +111,7 @@ export const testimonials = [
     content:
       "From the ambiance to the innovative menu, Savoria has mastered the art of fine dining while maintaining a warm, welcoming atmosphere.",
     avatar:
-      "https://res.cloudinary.com/dhlyei79o/image/upload/v1749800725/handsome-adult-male-posing_23-2148729713_rq1crq.jpg",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749800725/handsome-adult-male-posing_23-2148729713_rq1crq.jpg",
   },
   {
     id: 4,
@@ -157,49 +157,49 @@ export const teamMembers = [
 export const galleryImages = [
   {
     id: 1,
-    src: "https://res.cloudinary.com/dhlyei79o/image/upload/v1749847942/crumble-2024x1518_yxs0ca.jpg",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749847942/crumble-2024x1518_yxs0ca.jpg",
     alt: "Signature dish plating",
     category: "Food",
   },
   {
     id: 2,
-    src: "https://res.cloudinary.com/dhlyei79o/image/upload/v1749830847/1080_stwdxw.jpg",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749830847/1080_stwdxw.jpg",
     alt: "Restaurant interior with ambient lighting",
     category: "Interior",
   },
   {
     id: 3,
-    src: "https://res.cloudinary.com/dhlyei79o/image/upload/v1749806337/blini-with-cream-cheese-and-smoked-salmon-515810_vaetha.jpg",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749806337/blini-with-cream-cheese-and-smoked-salmon-515810_vaetha.jpg",
     alt: "Chef preparing a dish in the kitchen",
     category: "Food",
   },
   {
     id: 4,
-    src: "https://res.cloudinary.com/dhlyei79o/image/upload/v1749831004/Fully-Automatic-Terrace-Roof-Retractable-Sliding-and-Folding-Luxury-Outdoor-Patio-Pergola-Water-Proof_srjll1.jpg",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749831004/Fully-Automatic-Terrace-Roof-Retractable-Sliding-and-Folding-Luxury-Outdoor-Patio-Pergola-Water-Proof_srjll1.jpg",
     alt: "Outdoor dining area",
     category: "Exterior",
   },
   {
     id: 5,
-    src: "https://res.cloudinary.com/dhlyei79o/image/upload/v1749830743/RotterdamRendering_DiningRoom_1_HAL6278_mx63yp.jpg",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749830743/RotterdamRendering_DiningRoom_1_HAL6278_mx63yp.jpg",
     alt: "Private dining room setup",
     category: "Private Dining",
   },
   {
     id: 6,
-    src: "https://res.cloudinary.com/dhlyei79o/image/upload/v1749798320/114f3948_sazyjm.jpg",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749798320/114f3948_sazyjm.jpg",
     alt: "Wedding reception at the restaurant",
     category: "Events",
   },
   {
     id: 7,
-    src: "https://res.cloudinary.com/dhlyei79o/image/upload/v1749806475/chicken-shashlik-dry-recipe-card_hmatjy.jpg",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749806475/chicken-shashlik-dry-recipe-card_hmatjy.jpg",
     alt: "Dessert platter presentation",
     category: "Food",
   },
   {
     id: 8,
-    src: "https://res.cloudinary.com/dhlyei79o/image/upload/v1749844860/PAB8263-HDR-scaled_dkwpxs.jpg",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749844860/PAB8263-HDR-scaled_dkwpxs.jpg",
     alt: "Bar area with craft cocktails",
     category: "Interior",
   },

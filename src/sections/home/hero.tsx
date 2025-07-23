@@ -7,7 +7,7 @@ export default function HeroSection() {
     <Section className="relative h-screen flex items-center justify-center section">
       <div className="absolute inset-0 z-0 h-full">
         <Image
-          src="https://res.cloudinary.com/dhlyei79o/image/upload/v1749798831/618cdc3015e9f95c513a552e_ozyi0d.jpg"
+          src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1749798831/618cdc3015e9f95c513a552e_ozyi0d.jpg"
           alt="Restaurant hero image"
           fill
           className="object-cover brightness-50 h-full"

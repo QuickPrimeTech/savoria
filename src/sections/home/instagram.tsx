@@ -13,32 +13,32 @@ import {
 const instagramPosts = [
   {
     id: 1,
-    url: "https://res.cloudinary.com/dhlyei79o/image/upload/v1749805965/z_Nearly-raw-borscht2-square_lx9xff.jpg",
+    url: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749805965/z_Nearly-raw-borscht2-square_lx9xff.jpg",
     name: "Borscht",
   },
   {
     id: 2,
-    url: "https://res.cloudinary.com/dhlyei79o/image/upload/v1749806052/1732138234686_agwc7i.webp",
+    url: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749806052/1732138234686_agwc7i.webp",
     name: "Pelmeni",
   },
   {
     id: 3,
-    url: "https://res.cloudinary.com/dhlyei79o/image/upload/v1749806177/beef-stroganoff-193133-1_ijmdkm.jpg",
+    url: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749806177/beef-stroganoff-193133-1_ijmdkm.jpg",
     name: "Beef Stroganoff",
   },
   {
     id: 4,
-    url: "https://res.cloudinary.com/dhlyei79o/image/upload/v1749806337/blini-with-cream-cheese-and-smoked-salmon-515810_vaetha.jpg",
+    url: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749806337/blini-with-cream-cheese-and-smoked-salmon-515810_vaetha.jpg",
     name: "Blini",
   },
   {
     id: 5,
-    url: "https://res.cloudinary.com/dhlyei79o/image/upload/v1749806417/olivier-salad-ensalada-rusa-featured_hsek8w.jpg",
+    url: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749806417/olivier-salad-ensalada-rusa-featured_hsek8w.jpg",
     name: "Olivier Salad",
   },
   {
     id: 6,
-    url: "https://res.cloudinary.com/dhlyei79o/image/upload/v1749806475/chicken-shashlik-dry-recipe-card_hmatjy.jpg",
+    url: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749806475/chicken-shashlik-dry-recipe-card_hmatjy.jpg",
     name: "Shashlik",
   },
 ];
